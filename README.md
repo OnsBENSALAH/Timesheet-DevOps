@@ -43,5 +43,19 @@ spring-boot-devops/
 ├── pom.xml                            # Configuration Maven
 └── README.md                          # Documentation du projet
 ```
+Après l'étape Jenkins :
+-
+spring-boot-devops/
+├── src/
+├── pom.xml
+├── Jenkinsfile
+└── README.md
 
-- La structure pourra évoluer au fur et à mesure de l'intégration des différents outils DevOps.
+Après l'étape Docker :
+-
+spring-boot-devops/
+├── src/
+├── pom.xml
+├── Jenkinsfile
+├── Dockerfile
+└── README.md

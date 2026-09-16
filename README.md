@@ -1,4 +1,5 @@
 Spring Boot DevOps – Projet pédagogique
+-
 
 📌 Présentation:
 - 
@@ -23,21 +24,32 @@ Le projet servira de support pratique pour mettre en œuvre les différentes ét
 📁 Structure du projet
 -
 spring-boot-devops/
+├── src/
+├── pom.xml
+└── README.md
+
+📁 Structure du projet
+
+Le projet suit la structure standard d'une application Spring Boot avec Maven.
+Les fichiers DevOps seront ajoutés progressivement au cours des différentes étapes du projet.
+
+spring-boot-devops/
 │
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── ...
+│   │   │   └── ...                    # Code source Java
+│   │   │
 │   │   └── resources/
-│   │       └── application.properties
+│   │       └── application.properties # Configuration de l'application
 │   │
 │   └── test/
 │       └── java/
-│           └── ...
+│           └── ...                    # Tests unitaires et d'intégration
 │
-├── pom.xml
-├── Jenkinsfile
-├── Dockerfile
-└── README.md
+├── pom.xml                            # Configuration Maven
+├── Jenkinsfile                        # Pipeline CI/CD Jenkins
+├── Dockerfile                         # Construction de l'image Docker
+└── README.md                           # Documentation du projet
 
 - La structure pourra évoluer au fur et à mesure de l'intégration des différents outils DevOps.

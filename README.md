@@ -21,8 +21,6 @@ Le projet servira de support pratique pour mettre en œuvre les différentes ét
 - mettre en place la supervision avec Prometheus et Grafana ;
 - construire progressivement une chaîne CI/CD complète.
 
-📁 Structure du projet
--
 ## 📁 Structure du projet
 
 Le projet suit la structure standard d'une application Spring Boot avec Maven.  
@@ -45,17 +43,20 @@ spring-boot-devops/
 ```
 Après l'étape Jenkins :
 -
+```text
 spring-boot-devops/
 ├── src/
 ├── pom.xml
 ├── Jenkinsfile
 └── README.md
-
+```
 Après l'étape Docker :
 -
+```text
 spring-boot-devops/
 ├── src/
 ├── pom.xml
 ├── Jenkinsfile
 ├── Dockerfile
 └── README.md
+```

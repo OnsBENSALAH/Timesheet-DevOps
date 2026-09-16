@@ -23,33 +23,25 @@ Le projet servira de support pratique pour mettre en œuvre les différentes ét
 
 📁 Structure du projet
 -
-spring-boot-devops/
-├── src/
-├── pom.xml
-└── README.md
+## 📁 Structure du projet
 
-📁 Structure du projet
-
-Le projet suit la structure standard d'une application Spring Boot avec Maven.
+Le projet suit la structure standard d'une application Spring Boot avec Maven.  
 Les fichiers DevOps seront ajoutés progressivement au cours des différentes étapes du projet.
 
+```text
 spring-boot-devops/
-│
 ├── src/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── ...                    # Code source Java
-│   │   │
 │   │   └── resources/
 │   │       └── application.properties # Configuration de l'application
-│   │
 │   └── test/
 │       └── java/
-│           └── ...                    # Tests unitaires et d'intégration
+│           └── ...                    # Tests
 │
 ├── pom.xml                            # Configuration Maven
-├── Jenkinsfile                        # Pipeline CI/CD Jenkins
-├── Dockerfile                         # Construction de l'image Docker
-└── README.md                           # Documentation du projet
+└── README.md                          # Documentation du projet
+```
 
 - La structure pourra évoluer au fur et à mesure de l'intégration des différents outils DevOps.

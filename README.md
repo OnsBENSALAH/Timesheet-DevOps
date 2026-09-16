@@ -1,4 +1,5 @@
 Spring Boot DevOps – Projet pédagogique
+
 📌 Présentation
 Ce projet est une application Spring Boot utilisée dans le cadre du cours DevOps.
 L'objectif est de construire progressivement une chaîne CI/CD en intégrant différents outils DevOps, depuis la gestion du code source jusqu'au déploiement et à la supervision de l'application.
